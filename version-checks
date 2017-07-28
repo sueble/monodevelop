@@ -17,7 +17,7 @@ DEP[0]=md-addins
 DEP_NAME[0]=MDADDINS
 DEP_PATH[0]=${top_srcdir}/../md-addins
 DEP_MODULE[0]=git@github.com:xamarin/md-addins.git
-DEP_NEEDED_VERSION[0]=784f242b70e74dc3c8bc2a5bc725a7f0c20e0d5b
+DEP_NEEDED_VERSION[0]=50a10cd146dfd5c9a73f5d434707d05efd371cf7
 DEP_BRANCH_AND_REMOTE[0]="d15-4-ui-signing-fixes origin/d15-4-ui-signing-fixes"
 
 # heap-shot

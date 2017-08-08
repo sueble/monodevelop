@@ -1,6 +1,10 @@
 echo "PATH ======= $PATH"
 echo "WORKSPACE ======= $WORKSPACE"
 
+echo $BUILD_REPOSITORY
+echo $BUILD_REVISION
+echo $BUILD_LANE_MAX_REVISION
+
 if [ "$1" = "checkout" ]; then
 	cd ..
 	git clone git@github.com:xamarin/release-scripts

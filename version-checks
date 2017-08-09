@@ -17,7 +17,7 @@ DEP[0]=md-addins
 DEP_NAME[0]=MDADDINS
 DEP_PATH[0]=${top_srcdir}/../md-addins
 DEP_MODULE[0]=git@github.com:xamarin/md-addins.git
-DEP_NEEDED_VERSION[0]=92e6b1c68444bac0421a98798c91ca0bcc324114
+DEP_NEEDED_VERSION[0]=b786249731402c1ce5c98ed71ba302bb7b21ca7d
 DEP_BRANCH_AND_REMOTE[0]="d15-4-apple-auth-fix origin/d15-4-apple-auth-fix"
 
 # heap-shot

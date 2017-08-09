@@ -12,6 +12,7 @@ if [ "$1" = "checkout" ]; then
 	bundle install --path ~/gems
 	cd ../..
     rake -f release-scripts/wrench/monodevelop/Rakefile checkout
+    rm -rf release-scripts
 else
 	cd .. && mv s monodevelop && cd monodevelop
     make $1
